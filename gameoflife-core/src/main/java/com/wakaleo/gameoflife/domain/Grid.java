@@ -6,8 +6,8 @@ import static com.wakaleo.gameoflife.domain.Cell.LIVE_CELL;
 // Adding a comment for my jenkins testing
 public class Grid {
 
-    private static final int DEFAULT_ROW_COUNT = 3;
-    private static final int DEFAULT_COLUMN_COUNT = 3;
+    private static final int DEFAULT_ROW_COUNT = 10;
+    private static final int DEFAULT_COLUMN_COUNT = 10;
 
     private Cell[][] cells;
 
