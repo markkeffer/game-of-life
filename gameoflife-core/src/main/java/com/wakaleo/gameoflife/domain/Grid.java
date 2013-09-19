@@ -28,7 +28,7 @@ public class Grid {
         this.cells = anArrayOfDeadCells(rows, columns);
     }
 
-    private Cell[][] anArrayOfDeadCells(final int rows, final int columns) {
+    private Cell[][] anArrayOfDeadCells( int rows,  int columns) {
         
         // forcing to the defaults I changed earlier - MVK
         rows = DEFAULT_ROW_COUNT;
