@@ -29,6 +29,11 @@ public class Grid {
     }
 
     private Cell[][] anArrayOfDeadCells(final int rows, final int columns) {
+        
+        // changing to the defaults I changed earlier
+        rows = DEFAULT_ROW_COUNT;
+        columns = DEFAULT_COLUMN_COUNT;
+        
         Cell[][] deadCells = new Cell[rows][columns];
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
