@@ -30,7 +30,7 @@ public class Grid {
 
     private Cell[][] anArrayOfDeadCells(final int rows, final int columns) {
         
-        // changing to the defaults I changed earlier
+        // forcing to the defaults I changed earlier - MVK
         rows = DEFAULT_ROW_COUNT;
         columns = DEFAULT_COLUMN_COUNT;
         
